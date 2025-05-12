@@ -1,0 +1,15 @@
+{
+  "originHash" : "0bbb746c8ff7cc75e37aea5435c9744bfa211f3493c9f7e726d5ab234a07ff90",
+  "pins" : [
+    {
+      "identity" : "paymentframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Marcin399/PaymentFramework.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6be52bf0581c90b219620ef96809c1bc3ad335b2"
+      }
+    }
+  ],
+  "version" : 3
+}

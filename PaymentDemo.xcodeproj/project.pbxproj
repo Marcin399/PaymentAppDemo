@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		52D631BF2DCF831E00BB04A2 /* PaymentFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 52D631BE2DCF831E00BB04A2 /* PaymentFramework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		52D631A02DCF7F8D00BB04A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -48,16 +52,6 @@
 			path = PaymentDemo;
 			sourceTree = "<group>";
 		};
-		52D631A22DCF7F8D00BB04A2 /* PaymentDemoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PaymentDemoTests;
-			sourceTree = "<group>";
-		};
-		52D631AC2DCF7F8D00BB04A2 /* PaymentDemoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PaymentDemoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D631BF2DCF831E00BB04A2 /* PaymentFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				52D6318B2DCF7F8B00BB04A2 /* PaymentDemo */,
-				52D631A22DCF7F8D00BB04A2 /* PaymentDemoTests */,
-				52D631AC2DCF7F8D00BB04A2 /* PaymentDemoUITests */,
 				52D6318A2DCF7F8B00BB04A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,6 +118,7 @@
 			);
 			name = PaymentDemo;
 			packageProductDependencies = (
+				52D631BE2DCF831E00BB04A2 /* PaymentFramework */,
 			);
 			productName = PaymentDemo;
 			productReference = 52D631892DCF7F8B00BB04A2 /* PaymentDemo.app */;
@@ -142,9 +136,6 @@
 			);
 			dependencies = (
 				52D631A12DCF7F8D00BB04A2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				52D631A22DCF7F8D00BB04A2 /* PaymentDemoTests */,
 			);
 			name = PaymentDemoTests;
 			packageProductDependencies = (
@@ -165,9 +156,6 @@
 			);
 			dependencies = (
 				52D631AB2DCF7F8D00BB04A2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				52D631AC2DCF7F8D00BB04A2 /* PaymentDemoUITests */,
 			);
 			name = PaymentDemoUITests;
 			packageProductDependencies = (
@@ -208,6 +196,9 @@
 			);
 			mainGroup = 52D631802DCF7F8B00BB04A2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				52D631BD2DCF82ED00BB04A2 /* XCRemoteSwiftPackageReference "PaymentFramework" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 52D6318A2DCF7F8B00BB04A2 /* Products */;
 			projectDirPath = "";
@@ -569,6 +560,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52D631BD2DCF82ED00BB04A2 /* XCRemoteSwiftPackageReference "PaymentFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Marcin399/PaymentFramework.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52D631BE2DCF831E00BB04A2 /* PaymentFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52D631BD2DCF82ED00BB04A2 /* XCRemoteSwiftPackageReference "PaymentFramework" */;
+			productName = PaymentFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52D631812DCF7F8B00BB04A2 /* Project object */;
 }
