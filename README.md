@@ -1,4 +1,4 @@
-# PaymentDemo
+# Payment demo app
 
 A demonstration iOS application showcasing payment framework integration.
 
